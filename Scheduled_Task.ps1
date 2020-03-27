@@ -1,0 +1,3 @@
+$action = New-ScheduledTaskAction -Execute 'Powershell.exe' -Argument '-windowstyle hidden -file "I:\Config_Manager_Updater\save\CM_Force_Update\run.ps1"'
+$trigger =  New-ScheduledTaskTrigger -AtLogon
+Register-ScheduledTask -Action $action -Trigger $trigger -TaskName "Configuration Manager Client Force Update" -Description "Launch the systray tool to run actions from the Configuration Manager client"	
