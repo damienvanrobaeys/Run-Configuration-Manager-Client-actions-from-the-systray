@@ -1,0 +1,59 @@
+<Actions>
+	<Action>
+		<Name>Software Metering Usage Report Cycle</Name>
+		<Active>False</Active>
+	</Action>
+	
+	<Action>
+		<Name>Updates Source Scan Cycle </Name>
+		<Active>False</Active>
+	</Action>	
+	
+	<Action>
+		<Name>Hardware Inventory Collection Cycle</Name>
+		<Active>True</Active>
+	</Action>		
+
+	<Action>
+		<Name>Software Inventory Collection Cycle</Name>
+		<Active>False</Active>
+	</Action>			
+	
+	<Action>
+		<Name>Application Global Evaluation Task</Name>
+		<Active>False</Active>
+	</Action>
+
+	<Action>
+		<Name>Software Updates Assignments Evaluation Cycle</Name>
+		<Active>True</Active>
+	</Action>
+
+	<Action>
+		<Name>Discovery Data Collection Cycle</Name>
+		<Active>False</Active>
+	</Action>		
+	
+	<Action>
+		<Name>MSI Product Source Update Cycle</Name>
+		<Active>False</Active>
+	</Action>		
+	
+	<Action>
+		<Name>Standard File Collection Cycle</Name>
+		<Active>False</Active>
+	</Action>		
+
+	<Action>
+		<Name>Request &amp; Evaluate Machine Policy</Name>
+		<Active>True</Active>
+	</Action>	
+
+	<Action>
+		<Name>Request &amp; Evaluate User Policy</Name>
+		<Active>False</Active>
+	</Action>		
+
+
+</Actions>
+
